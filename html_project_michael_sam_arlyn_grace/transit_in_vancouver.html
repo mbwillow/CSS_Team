@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!-- Head information -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Grace" />
+    <meta name="keywords" content="Transit in Vancouver"/>
+    <title>Transit in Vancouver</title>
+    <script src="scripts/html5shiv.js"></script>
+</head>
+<body>
+
+	<header>
+        <h1 id="top">The Vancouver Experience - Our Favorites</h1>
+        <img src="images/vancouver_panorama_pic-CC.jpg"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="index.html#sam">Sam's Picks</a></li>
+                <li><a href="index.html#michael">Michael's Picks</a></li>
+                <li><a href="index.html#arlyn">Arlyn's Picks</a></li>
+                <li><a href="index.html#grace">Grace's Picks</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1>Transit in Metro Vancouver</h1>
+    <strong>Public Transit System: Getting you everywhere you want to go in Metro Vancouver! </strong>
+
+    <section>                  
+        <p>Click here to <a href="#plan_your_trip">Plan Your Trip </a></p>
+         <br />
+        <figure>
+            <img src="images/bus.png" alt="Bus" />
+            <img src="images/skytrain.png" alt="Skytrain" />
+            <figcaption> 
+                Picture1: Pubsit System in Vancouver
+            </figcaption>
+        </figure>
+        
+        <br />      
+        <h2>Public Transit:</h2>
+        <ul>
+            <li>Bus</li>
+            <li>SkyTrain</li>
+            <li>Sea Bus</li>
+            <li>WestCoast Express</li>
+        </ul>
+        <dl>
+            <dt id="Bus">Bus</dt>
+                <dd>Our vast network of buses, trolleys and community shuttles link to everywhere throughout Metro Vancouver.  </dd>
+            <dt id="SkyTrain">SkyTrain</dt>
+                <dd>SkyTrain is the oldest and one of the longest automated driverless light rapid transit systems in the world. </dd>
+            <dt id="SeaBus">SeaBus</dt>
+                <dd>SeaBus is a passenger only ferry that crosses the Burrard Inlet, connecting downtown Vancouver with the North Shore. </dd>
+            <dt id="WestcoastExpress"> Westcoast Express</dt>
+                <dd>West Coast Express is a commuter rail service operating during peak morning and evening periods between downtown and Mission. </dd>
+        </dl>
+        <h2 id="regular_fares">Regular Fares</h2>
+            <ol>
+                <li>One Zone: $2.75</li>
+                <li>Two Zone: $4.00</li>
+                <li>Three Zone: $5.50</li>
+            </ol>  
+        <aside>
+            <h2 id="plan_your_trip">Plan Your Trip</h2>
+            <p>This is where you'll find all the schedules to plan your trip in Metro Vancouver.</p>    
+            <form action="#" enctype="multipart/form-data"  method="post">
+                <fieldset>
+                    <legend>Check Bus Schedules</legend>
+                    <label>
+                        Please Enter Bus Route No.
+                        <input type="text" size="21" name="busnumber" />
+                    </label>
+                    <label for="text">Select Bus Route</label>
+                        <select name="busroute" id="text">
+                            <option value="160">160: Port Coquitlam to Vancouver</option>
+                            <option value="97">97: Burnaby to Coquitlam</option>
+                            <option value="40">40: Richmond to Vancouver</option>
+                        </select>
+                    <label> Departure
+                        <input type="radio" name="transitway"  value="dep"     checked="checked" />
+                    </label>
+                    <label> Arrival 
+                         <input type="radio" name="transitway" value="ari" />
+                    </label>
+                    <label for="preference">Please choose a transportation tool: </label>
+                        <select name="transittool" id="preference" multiple="multiple">
+                            <option value="bus">Bus 
+                            </option>
+                            <option value="skytrain">SkyTrain 
+                            </option>
+                            <option value="seabus">Seabus 
+                            </option>
+                            <option value="westcoast">Westcoast Express 
+                            </option>
+                        </select>
+                    <p></p>
+                    <input type="submit" name="submit"
+                        value ="Plan My Trip Now" />
+                    <p></p>
+                    <p>Ask for mailing a schedule book?</p>
+                    <label>
+                         <textarea name="address"
+                         rows="10" cols="40" id="address"> Please put your address here </textarea>
+                    </label> 
+                </fieldset>
+             </form> 
+          </aside>     
+    </section>
+    <hr />
+    <p>
+        Visit <em><a href="http://www.translink.ca/" target="_blank">Vancouver TransLink</a>
+        </em>for more information.
+    </p>
+<footer>
+     <address>
+        <p>
+            Grace Xie<br />
+            #300-555 Seymour St.<br />
+            Vancouver, BC V6B 3H6<br />
+            <a href="mailto:yxie34@my.bcit.ca">yxie34@my.bcit.ca </a>
+        </p>
+    </address>
+    <p>&copy; Grace</p>
+</footer>   
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿  <!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name= "author" content="Arlyn" />
+    <meta name ="description" content="Customer Feedback" />
+
+    <title>Feedback</title>
+</head>
+
+<body>
+    <h1>Your Feedback</h1>
+    <p> <img  src="Images/inquiry.jpg" width="315" height="200"
+                alt="Feedback" /> </p>
+    <p>Enter our monthly prize draw by simply filling out the following questionnaire.</p>
+    <p>And by providing us your Email address, we will keep you updated about our</p>
+    <p><strong>Special Events and Promotions</strong></p>
+
+    <fieldset>
+          <legend>User's Information</legend>
+          <label for ="fname">First Name :</label>
+             <input type ="text" name="fname" /><br />
+          <label for ="lname">Last Name :</label>
+             <input type ="text" name="lname"/><br />
+          <label for ="user">UserName :</label>
+             <input type ="text" name ="user" id="user"
+                   size="10" maxlength ="6" /><br />
+          <label for="pass" >Password :</label>
+             <input type ="password" name ="pass" id="pass"
+                    size="10" maxlength="10" /><br />
+         <label for="email" >Email :</label>
+             <input type ="email" name ="email" id="Password1"
+                    size="15" maxlength="10" required placeholder="Enter email address" /><br />
+         <label for ="city">City :</label>
+             <input type ="text" name="city"/><br />
+         <label for ="province">Province :</label>
+             <input type ="text" name="province"/><br />
+         <label for ="city">City :</label>
+             <input type ="text" name="city"/><br />
+
+         <label for="country">Country :</label>
+           <select name="country" id="country">
+            <option value="canada">Canada</option>
+            <option value="us">US</option>
+            <option value="bermuda">Bermuda</option>
+            <option value="australia">Australia</option>
+            </select>   <br />
+
+         <!-- RADIO BUTTON -->
+      <p>Gender</p>
+         <label for ="female">Female</label>
+         <input type ="radio" name ="Gender" value ="female" checked="checked" 
+                id="female" />
+         <label for="male">Male</label>
+         <input type="radio" name="Gender" value ="male"
+                id="male" /><br />
+
+          <p></p>
+          <label>Other Comments<textarea name="comments" cols="30" rows="5">
+                 Other Comments</textarea>
+
+          </label>
+             <!-- Submit Button -->
+         <p></p>
+         <input type="submit" name ="submit" value="Submit" />
+                    
+      </fieldset>
+
+     <p>Go back to Previous Page</p>
+     <form action ="Fortune_House.html"><input type="submit" name ="back" value="Back"
+                  id="back"/>
+     </form>
+
+</body>
+  
+                    
+ <hr />
+ <footer><p><strong>Fortune House</strong> &copy 2009 |2199A-Kingsway,Metropolis at Metrotown, Burnaby, BC, V5H 4M1 | TEL: 604-438-8686 </p></footer>
+ 
+
+
+</html>
